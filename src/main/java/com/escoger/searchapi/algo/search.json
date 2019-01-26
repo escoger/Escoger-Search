@@ -4,11 +4,11 @@
 				{
 				  "url":"http:localhost:8080/getNokiaMobile"
 				}
-		"Nokia 8.1"
+		"Nokia 8.1":
 				{
 				  "url":
 				 }
-		"Samsung"
+		"Samsung":
 				{
 				  "url":"http:localhost:8080/getSamsungMobile"
 				}

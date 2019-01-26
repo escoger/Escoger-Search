@@ -37,6 +37,32 @@ public class SearchApiServiceImpl implements SearchApiService{
 		return objectNode;
 	}
 
+	@Override
+	public ObjectNode getAllRandomMobileSearch() {
+		ObjectNode mobileNode = mapper.createObjectNode();
+		mobileNode.put("Nokia", "http:localhost:8080/getNokiaMobile");
+		mobileNode.put("Samsung", "http:localhost:8080/getSamsungMobile");
+		mobileNode.put("Mi", "http:localhost:8080/getMiMobile");
+		mobileNode.put("Nokia", "http:localhost:8080/getNokiaMobile/Nokia");
+		mobileNode.put("Nokia", "http:localhost:8080/getNokiaMobile");
+		mobileNode.put("Nokia", "http:localhost:8080/getNokiaMobile");
+		mobileNode.put("Nokia", "http:localhost:8080/getNokiaMobile");
+		mobileNode.put("Nokia", "http:localhost:8080/getNokiaMobile");
+		return mobileNode;
+	}
+
+	@Override
+	public ObjectNode getAllRandomTVSearch() {
+		 ObjectNode tvNode = mapper.createObjectNode();
+		return tvNode;
+	}
+
+	@Override
+	public ObjectNode getAllRandomTabSearch() {
+		ObjectNode tabNode = mapper.createObjectNode();
+		return tabNode;
+	}
+
 	
 
 		

@@ -8,4 +8,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 public interface SearchApiService {
 
 	public ObjectNode getAllSearchBasedOnKey();
+	public ObjectNode getAllRandomMobileSearch();
+	public ObjectNode getAllRandomTVSearch();
+	public ObjectNode getAllRandomTabSearch();
 }
